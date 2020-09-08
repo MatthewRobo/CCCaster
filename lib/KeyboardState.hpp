@@ -4,7 +4,7 @@
 
 #include <unordered_map>
 
-
+#include <cstdint>
 #define DEFAULT_HELD_DURATION ( 300 )
 
 #define DEFAULT_REPEAT_INTERVAL ( 3 )

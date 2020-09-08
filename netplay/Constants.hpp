@@ -76,6 +76,8 @@
 #define CC_DUMMY_STATUS_DUMMY       ( 5 )
 #define CC_DUMMY_STATUS_RECORD      ( -1 )
 
+#define CC_DUMMY_HIT_TIMER_ADDR     ( ( uint32_t * ) 0x76E708 ) // Counts up from 0 after dummy exits stun 
+
 #define CC_PTR_TO_WRITE_INPUT_ADDR  ( ( char * )     0x76E6AC ) // Pointer to the location to write game input
 #define CC_P1_OFFSET_DIRECTION      ( 0x18 )                    // Offset to write P1 direction input
 #define CC_P1_OFFSET_BUTTONS        ( 0x24 )                    // Offset to write P1 buttons input

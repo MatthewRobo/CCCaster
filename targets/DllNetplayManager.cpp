@@ -222,6 +222,8 @@ uint16_t NetplayManager::getInGameInput ( uint8_t player )
                 * ( player == 1 ? CC_P2_X_POSITION_ADDR : CC_P1_X_POSITION_ADDR ) = -16384;
             }
 
+            * ( CC_DUMMY_HIT_TIMER_ADDR ) += 50;
+
             ++_trainingResetState;
             TrialManager::comboTrialPosition = 0;
 
